@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.headersection {
+    background-image: url(./assets/desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.listitems li {
+    padding: 0.4rem;
+    border-radius: 0.25rem;
+}
+
+.listitems li:hover {
+    background-color: white;
+    color: black;
+}
+
+.aboutsection {
+    background-image: url(./assets/terren-hurst-blgOFmPIlr0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.signup {
+    background-image: url(./assets/linkedin-sales-solutions-EI50ZDA-l8Y-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.chooseusbg {
+    background-image: url(./assets/daniel-reyes-LElCqbdsNz0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media screen and (width<1024px){
+    .listitems li {
+        border-radius: 0rem;
+    }
+}
+@media screen and (width<640px) {
+    .headersection {
+        background-image: url(./assets/phone.jpg);
+    }
+
+    .aboutsection {
+        background-image: url(./assets/dibakar-roy-rVmsm-Zb5jc-unsplash.jpg);
+    }
+
+   
+}
